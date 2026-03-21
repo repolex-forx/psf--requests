@@ -21755,6 +21755,34 @@
         "blob/cf171f50a4eed037fe2fee45973315dba272f6e9.nq.gz",
         "blob/edf89f1d295412a4573b3c36faf307ad8f69e9d4.nq.gz",
         "blob/603c7ff9c3151fc55c050522c94b224d4bc2ea53.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/ca66267d2cf8adc67ed8857f3f57b45ffde21e01.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/ca66267d2cf8adc67ed8857f3f57b45ffde21e01.nq.gz",
+      "repolex": "aggregate/repolex/ca66267d2cf8adc67ed8857f3f57b45ffde21e01.nq.gz",
+      "dep": "dep/ca66267d2cf8adc67ed8857f3f57b45ffde21e01.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "pytest",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest"
+        },
+        {
+          "packageName": "pytest-cov",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-cov"
+        },
+        {
+          "packageName": "pyasn1",
+          "githubOrg": "pyasn1",
+          "githubRepo": "pyasn1"
+        },
+        {
+          "packageName": "chardet",
+          "githubOrg": "chardet",
+          "githubRepo": "chardet"
+        }
       ]
     },
     {
