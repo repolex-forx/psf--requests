@@ -25347,6 +25347,140 @@
         "blob/cf171f50a4eed037fe2fee45973315dba272f6e9.nq.gz",
         "blob/edf89f1d295412a4573b3c36faf307ad8f69e9d4.nq.gz",
         "blob/603c7ff9c3151fc55c050522c94b224d4bc2ea53.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/efb4af01271c8c0ddf49457c7096a5bc91edbdad.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/efb4af01271c8c0ddf49457c7096a5bc91edbdad.nq.gz",
+      "repolex": "aggregate/repolex/efb4af01271c8c0ddf49457c7096a5bc91edbdad.nq.gz",
+      "dep": "dep/efb4af01271c8c0ddf49457c7096a5bc91edbdad.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "alabaster",
+          "packageVersion": "1.0.0",
+          "githubOrg": "sphinx-doc",
+          "githubRepo": "alabaster",
+          "githubCommit": "fba58a43980385019ceb593f88ab8821e17840c0"
+        },
+        {
+          "packageName": "coverage",
+          "packageVersion": "7.9.2",
+          "githubOrg": "nedbat",
+          "githubRepo": "coveragepy",
+          "githubCommit": "6e774923cf042751feb78036fcd46909d263be06"
+        },
+        {
+          "packageName": "flask",
+          "packageVersion": "3.1.3",
+          "githubOrg": "pallets",
+          "githubRepo": "flask",
+          "githubCommit": "22d924701a6ae2e4cd01e9a15bbaf3946094af65"
+        },
+        {
+          "packageName": "httpbin",
+          "packageVersion": "0.7.0",
+          "githubOrg": "requests",
+          "githubRepo": "httpbin",
+          "githubCommit": "2607b7e6c78bab21f9791331bdde15c583521c90"
+        },
+        {
+          "packageName": "itsdangerous",
+          "packageVersion": "2.2.0",
+          "githubOrg": "pallets",
+          "githubRepo": "itsdangerous",
+          "githubCommit": "096c8d42545d3b68ea21a4f890fb2b2d8979c0bd"
+        },
+        {
+          "packageName": "jinja2",
+          "packageVersion": "3.1.6",
+          "githubOrg": "pallets",
+          "githubRepo": "jinja",
+          "githubCommit": "15206881c006c79667fe5154fe80c01c65410679"
+        },
+        {
+          "packageName": "markupsafe",
+          "packageVersion": "3.0.3",
+          "githubOrg": "pallets",
+          "githubRepo": "markupsafe",
+          "githubCommit": "297fc8e356e6836a62087949245d09a28e9f1b13"
+        },
+        {
+          "packageName": "pytest",
+          "packageVersion": "9.0.2",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+        },
+        {
+          "packageName": "pytest-cov",
+          "packageVersion": "7.0.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-cov",
+          "githubCommit": "224d8964caad90074a8cf6dc8720b8f70f31629b"
+        },
+        {
+          "packageName": "pytest-httpbin",
+          "packageVersion": "2.1.0rc1",
+          "githubOrg": "kevin1024",
+          "githubRepo": "pytest-httpbin",
+          "githubCommit": "f7b2b3e0eac202c8aa83372a4f5af5b05537ed86"
+        },
+        {
+          "packageName": "pytest-mock",
+          "packageVersion": "3.9.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-mock",
+          "githubCommit": "64a34f64215d779dc0384acc3cdd5a164544a60a"
+        },
+        {
+          "packageName": "snowballstemmer",
+          "packageVersion": "3.0.1",
+          "githubOrg": "snowballstem",
+          "githubRepo": "snowball",
+          "githubCommit": "e4b3efb449ccb994d39230eb6e8440d267471f4a"
+        },
+        {
+          "packageName": "sphinx",
+          "packageVersion": "9.1.0rc2",
+          "githubOrg": "sphinx-doc",
+          "githubRepo": "sphinx",
+          "githubCommit": "8ab960098a8e12b8893bd3ceafc394759118346b"
+        },
+        {
+          "packageName": "sphinx-rtd-theme",
+          "packageVersion": "3.1.0rc2",
+          "githubOrg": "readthedocs",
+          "githubRepo": "sphinx_rtd_theme",
+          "githubCommit": "fbe5e6004195a1e75654eface1884485c57eb68e"
+        },
+        {
+          "packageName": "werkzeug",
+          "packageVersion": "3.1.6",
+          "githubOrg": "pallets",
+          "githubRepo": "werkzeug",
+          "githubCommit": "04da1b5221b7a7b57e82246e4b5741d37a6b2e56"
+        },
+        {
+          "packageName": "chardet",
+          "packageVersion": "7.2.0",
+          "githubOrg": "chardet",
+          "githubRepo": "chardet",
+          "githubCommit": "884996a2eaff06d41e829c8893525f26a8780791"
+        },
+        {
+          "packageName": "urllib3",
+          "packageVersion": "2.6.3",
+          "githubOrg": "urllib3",
+          "githubRepo": "urllib3",
+          "githubCommit": "0248277dd7ac0239204889ca991353ad3e3a1ddc"
+        },
+        {
+          "packageName": "pyasn1",
+          "packageVersion": "0.6.3",
+          "githubOrg": "pyasn1",
+          "githubRepo": "pyasn1",
+          "githubCommit": "af65c3b92e9deeae50db4de390982dd970d87f98"
+        }
       ]
     },
     {
