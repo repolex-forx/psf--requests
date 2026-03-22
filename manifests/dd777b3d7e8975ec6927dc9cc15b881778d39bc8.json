@@ -1,0 +1,29 @@
+{
+  "commit": "dd777b3d7e8975ec6927dc9cc15b881778d39bc8",
+  "files": {
+    "repolex": {
+      "path": "aggregate/repolex/dd777b3d7e8975ec6927dc9cc15b881778d39bc8.nq.gz",
+      "size_bytes": 315997
+    },
+    "dep": {
+      "path": "dep/dd777b3d7e8975ec6927dc9cc15b881778d39bc8.nq.gz",
+      "size_bytes": 456
+    }
+  },
+  "dependencies": [
+    {
+      "packageName": "pytest",
+      "packageVersion": "9.0.2",
+      "githubOrg": "pytest-dev",
+      "githubRepo": "pytest",
+      "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+    },
+    {
+      "packageName": "invoke",
+      "packageVersion": "2.2.1",
+      "githubOrg": "pyinvoke",
+      "githubRepo": "invoke",
+      "githubCommit": "26efe98365b8ffc52a925bc60d8cb7b16601a91d"
+    }
+  ]
+}
