@@ -32629,6 +32629,28 @@
         "blob/cf171f50a4eed037fe2fee45973315dba272f6e9.nq.gz",
         "blob/edf89f1d295412a4573b3c36faf307ad8f69e9d4.nq.gz",
         "blob/603c7ff9c3151fc55c050522c94b224d4bc2ea53.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/1a7c91f6581c80122ed8cd1fdf4a8ca38c842453.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/1a7c91f6581c80122ed8cd1fdf4a8ca38c842453.nq.gz",
+      "repolex": "aggregate/repolex/1a7c91f6581c80122ed8cd1fdf4a8ca38c842453.nq.gz",
+      "dep": "dep/1a7c91f6581c80122ed8cd1fdf4a8ca38c842453.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "pytest",
+          "packageVersion": "9.0.2",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+        },
+        {
+          "packageName": "sphinx",
+          "packageVersion": "9.1.0rc2",
+          "githubOrg": "sphinx-doc",
+          "githubRepo": "sphinx",
+          "githubCommit": "8ab960098a8e12b8893bd3ceafc394759118346b"
+        }
       ]
     }
   ],
