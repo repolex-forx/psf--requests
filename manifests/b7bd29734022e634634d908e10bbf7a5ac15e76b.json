@@ -1,0 +1,43 @@
+{
+  "commit": "b7bd29734022e634634d908e10bbf7a5ac15e76b",
+  "files": {
+    "repolex": {
+      "path": "aggregate/repolex/b7bd29734022e634634d908e10bbf7a5ac15e76b.nq.gz",
+      "size_bytes": 2824810
+    },
+    "dep": {
+      "path": "dep/b7bd29734022e634634d908e10bbf7a5ac15e76b.nq.gz",
+      "size_bytes": 645
+    }
+  },
+  "dependencies": [
+    {
+      "packageName": "pytest",
+      "packageVersion": "9.0.2",
+      "githubOrg": "pytest-dev",
+      "githubRepo": "pytest",
+      "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+    },
+    {
+      "packageName": "pytest-cov",
+      "packageVersion": "7.1.0",
+      "githubOrg": "pytest-dev",
+      "githubRepo": "pytest-cov",
+      "githubCommit": "66c8a526b1246b5eb8fb1bc218878131bc628622"
+    },
+    {
+      "packageName": "pyasn1",
+      "packageVersion": "0.6.3",
+      "githubOrg": "pyasn1",
+      "githubRepo": "pyasn1",
+      "githubCommit": "af65c3b92e9deeae50db4de390982dd970d87f98"
+    },
+    {
+      "packageName": "chardet",
+      "packageVersion": "7.2.0",
+      "githubOrg": "chardet",
+      "githubRepo": "chardet",
+      "githubCommit": "884996a2eaff06d41e829c8893525f26a8780791"
+    }
+  ]
+}
