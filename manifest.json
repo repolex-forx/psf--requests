@@ -30053,10 +30053,10 @@
         },
         {
           "packageName": "pytest-cov",
-          "packageVersion": "7.0.0",
+          "packageVersion": "7.1.0",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest-cov",
-          "githubCommit": "224d8964caad90074a8cf6dc8720b8f70f31629b"
+          "githubCommit": "66c8a526b1246b5eb8fb1bc218878131bc628622"
         },
         {
           "packageName": "pytest-httpbin",
@@ -30101,6 +30101,13 @@
           "githubCommit": "04da1b5221b7a7b57e82246e4b5741d37a6b2e56"
         },
         {
+          "packageName": "pyasn1",
+          "packageVersion": "0.6.3",
+          "githubOrg": "pyasn1",
+          "githubRepo": "pyasn1",
+          "githubCommit": "af65c3b92e9deeae50db4de390982dd970d87f98"
+        },
+        {
           "packageName": "chardet",
           "packageVersion": "7.2.0",
           "githubOrg": "chardet",
@@ -30113,13 +30120,6 @@
           "githubOrg": "urllib3",
           "githubRepo": "urllib3",
           "githubCommit": "0248277dd7ac0239204889ca991353ad3e3a1ddc"
-        },
-        {
-          "packageName": "pyasn1",
-          "packageVersion": "0.6.3",
-          "githubOrg": "pyasn1",
-          "githubRepo": "pyasn1",
-          "githubCommit": "af65c3b92e9deeae50db4de390982dd970d87f98"
         }
       ]
     },
