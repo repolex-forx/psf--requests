@@ -22267,18 +22267,24 @@
       "dependencies": [
         {
           "packageName": "pytest",
+          "packageVersion": "9.0.2",
           "githubOrg": "pytest-dev",
-          "githubRepo": "pytest"
+          "githubRepo": "pytest",
+          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
         },
         {
           "packageName": "pytest-cov",
+          "packageVersion": "7.1.0",
           "githubOrg": "pytest-dev",
-          "githubRepo": "pytest-cov"
+          "githubRepo": "pytest-cov",
+          "githubCommit": "66c8a526b1246b5eb8fb1bc218878131bc628622"
         },
         {
           "packageName": "invoke",
+          "packageVersion": "2.2.1",
           "githubOrg": "pyinvoke",
-          "githubRepo": "invoke"
+          "githubRepo": "invoke",
+          "githubCommit": "26efe98365b8ffc52a925bc60d8cb7b16601a91d"
         }
       ]
     },
