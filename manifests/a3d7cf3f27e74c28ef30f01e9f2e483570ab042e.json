@@ -1,0 +1,127 @@
+{
+  "commit": "a3d7cf3f27e74c28ef30f01e9f2e483570ab042e",
+  "files": {
+    "repolex": {
+      "path": "aggregate/repolex/a3d7cf3f27e74c28ef30f01e9f2e483570ab042e.nq.gz",
+      "size_bytes": 2306208
+    },
+    "dep": {
+      "path": "dep/a3d7cf3f27e74c28ef30f01e9f2e483570ab042e.nq.gz",
+      "size_bytes": 1722
+    }
+  },
+  "dependencies": [
+    {
+      "packageName": "pytest",
+      "packageVersion": "9.0.2",
+      "githubOrg": "pytest-dev",
+      "githubRepo": "pytest",
+      "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+    },
+    {
+      "packageName": "pytest-httpbin",
+      "packageVersion": "2.1.0rc1",
+      "githubOrg": "kevin1024",
+      "githubRepo": "pytest-httpbin",
+      "githubCommit": "f7b2b3e0eac202c8aa83372a4f5af5b05537ed86"
+    },
+    {
+      "packageName": "pytest-mock",
+      "packageVersion": "3.9.0",
+      "githubOrg": "pytest-dev",
+      "githubRepo": "pytest-mock",
+      "githubCommit": "64a34f64215d779dc0384acc3cdd5a164544a60a"
+    },
+    {
+      "packageName": "pytest-cov",
+      "packageVersion": "7.1.0",
+      "githubOrg": "pytest-dev",
+      "githubRepo": "pytest-cov",
+      "githubCommit": "66c8a526b1246b5eb8fb1bc218878131bc628622"
+    },
+    {
+      "packageName": "pytest-xdist",
+      "packageVersion": "3.8.0",
+      "githubOrg": "pytest-dev",
+      "githubRepo": "pytest-xdist",
+      "githubCommit": "1e3e4dc16523c8a8f6c67d95a950166420718c99"
+    },
+    {
+      "packageName": "alabaster",
+      "packageVersion": "1.0.0",
+      "githubOrg": "sphinx-doc",
+      "githubRepo": "alabaster",
+      "githubCommit": "fba58a43980385019ceb593f88ab8821e17840c0"
+    },
+    {
+      "packageName": "readme-renderer",
+      "packageVersion": "44.0.0",
+      "githubOrg": "pypa",
+      "githubRepo": "readme_renderer",
+      "githubCommit": "HEAD"
+    },
+    {
+      "packageName": "sphinx",
+      "packageVersion": "9.1.0rc2",
+      "githubOrg": "sphinx-doc",
+      "githubRepo": "sphinx",
+      "githubCommit": "8ab960098a8e12b8893bd3ceafc394759118346b"
+    },
+    {
+      "packageName": "pysocks",
+      "packageVersion": "1.7.1",
+      "githubOrg": "Anorov",
+      "githubRepo": "PySocks",
+      "githubCommit": "HEAD"
+    },
+    {
+      "packageName": "flake8",
+      "packageVersion": "7.3.0",
+      "githubOrg": "pycqa",
+      "githubRepo": "flake8",
+      "githubCommit": "c48217e1fc006c2dddd14df54e83b67da15de5cd"
+    },
+    {
+      "packageName": "tox",
+      "packageVersion": "4.9.0",
+      "githubOrg": "tox-dev",
+      "githubRepo": "tox",
+      "githubCommit": "3627f11bee3190abe5ce09ea114eea0d8a1f7e69"
+    },
+    {
+      "packageName": "urllib3",
+      "packageVersion": "2.6.3",
+      "githubOrg": "urllib3",
+      "githubRepo": "urllib3",
+      "githubCommit": "0248277dd7ac0239204889ca991353ad3e3a1ddc"
+    },
+    {
+      "packageName": "chardet",
+      "packageVersion": "7.3.0",
+      "githubOrg": "chardet",
+      "githubRepo": "chardet",
+      "githubCommit": "9402975a7ae4bfc448f6f6dd54d7285798c8606b"
+    },
+    {
+      "packageName": "certifi",
+      "packageVersion": "2026.2.25",
+      "githubOrg": "certifi",
+      "githubRepo": "python-certifi",
+      "githubCommit": "HEAD"
+    },
+    {
+      "packageName": "idna",
+      "packageVersion": "3.9.0",
+      "githubOrg": "kjd",
+      "githubRepo": "idna",
+      "githubCommit": "HEAD"
+    },
+    {
+      "packageName": "cryptography",
+      "packageVersion": "46.0.5",
+      "githubOrg": "pyca",
+      "githubRepo": "cryptography",
+      "githubCommit": "06e120e682cb200e3f7050c02f0bcdac90c4c6ad"
+    }
+  ]
+}
