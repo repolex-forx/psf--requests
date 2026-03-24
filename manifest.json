@@ -38471,6 +38471,56 @@
         "blob/34dbe6a3157b851a2e706ca1ffa66d1681c70958.nq.gz",
         "blob/9a6a43843bb4914024162ab4f0c80d8cbd06e38f.nq.gz",
         "blob/603c7ff9c3151fc55c050522c94b224d4bc2ea53.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/282b01a7c9feae30feccbd54e33afcc06197df62.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/282b01a7c9feae30feccbd54e33afcc06197df62.nq.gz",
+      "repolex": "aggregate/repolex/282b01a7c9feae30feccbd54e33afcc06197df62.nq.gz",
+      "dep": "dep/282b01a7c9feae30feccbd54e33afcc06197df62.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "pytest",
+          "packageVersion": "9.0.2",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+        },
+        {
+          "packageName": "chardet",
+          "packageVersion": "7.2.0",
+          "githubOrg": "chardet",
+          "githubRepo": "chardet",
+          "githubCommit": "884996a2eaff06d41e829c8893525f26a8780791"
+        },
+        {
+          "packageName": "cryptography",
+          "packageVersion": "46.0.5",
+          "githubOrg": "pyca",
+          "githubRepo": "cryptography",
+          "githubCommit": "06e120e682cb200e3f7050c02f0bcdac90c4c6ad"
+        },
+        {
+          "packageName": "idna",
+          "packageVersion": "3.9.0",
+          "githubOrg": "kjd",
+          "githubRepo": "idna",
+          "githubCommit": "HEAD"
+        },
+        {
+          "packageName": "urllib3",
+          "packageVersion": "2.6.3",
+          "githubOrg": "urllib3",
+          "githubRepo": "urllib3",
+          "githubCommit": "0248277dd7ac0239204889ca991353ad3e3a1ddc"
+        },
+        {
+          "packageName": "certifi",
+          "packageVersion": "2026.2.25",
+          "githubOrg": "certifi",
+          "githubRepo": "python-certifi",
+          "githubCommit": "HEAD"
+        }
       ]
     },
     {
