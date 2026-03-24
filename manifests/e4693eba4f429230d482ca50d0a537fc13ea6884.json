@@ -1,0 +1,57 @@
+{
+  "commit": "e4693eba4f429230d482ca50d0a537fc13ea6884",
+  "files": {
+    "repolex": {
+      "path": "aggregate/repolex/e4693eba4f429230d482ca50d0a537fc13ea6884.nq.gz",
+      "size_bytes": 5968518
+    },
+    "dep": {
+      "path": "dep/e4693eba4f429230d482ca50d0a537fc13ea6884.nq.gz",
+      "size_bytes": 819
+    }
+  },
+  "dependencies": [
+    {
+      "packageName": "pytest",
+      "packageVersion": "9.0.2",
+      "githubOrg": "pytest-dev",
+      "githubRepo": "pytest",
+      "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+    },
+    {
+      "packageName": "idna",
+      "packageVersion": "3.9.0",
+      "githubOrg": "kjd",
+      "githubRepo": "idna",
+      "githubCommit": "HEAD"
+    },
+    {
+      "packageName": "chardet",
+      "packageVersion": "7.2.0",
+      "githubOrg": "chardet",
+      "githubRepo": "chardet",
+      "githubCommit": "884996a2eaff06d41e829c8893525f26a8780791"
+    },
+    {
+      "packageName": "urllib3",
+      "packageVersion": "2.6.3",
+      "githubOrg": "urllib3",
+      "githubRepo": "urllib3",
+      "githubCommit": "0248277dd7ac0239204889ca991353ad3e3a1ddc"
+    },
+    {
+      "packageName": "cryptography",
+      "packageVersion": "46.0.5",
+      "githubOrg": "pyca",
+      "githubRepo": "cryptography",
+      "githubCommit": "06e120e682cb200e3f7050c02f0bcdac90c4c6ad"
+    },
+    {
+      "packageName": "certifi",
+      "packageVersion": "2026.2.25",
+      "githubOrg": "certifi",
+      "githubRepo": "python-certifi",
+      "githubCommit": "HEAD"
+    }
+  ]
+}
