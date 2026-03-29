@@ -47,13 +47,13 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "repolex",
       "repolex:graphFilePath": "aggregate/repolex/add6feab02d21967ca35f1572e6202b1dd11b788.nq.gz",
-      "repolex:graphFileSize": 1306
+      "repolex:graphFileSize": 1315
     },
     {
       "@type": "repolex:GraphFile",
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/add6feab02d21967ca35f1572e6202b1dd11b788.nq.gz",
-      "repolex:graphFileSize": 1262559
+      "repolex:graphFileSize": 1266734
     },
     {
       "@type": "repolex:GraphFile",
