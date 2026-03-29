@@ -10016,7 +10016,63 @@
         "aggregate/ast/082f4d89486e4bfe918fd125431545a6b879155e.nq.gz"
       ],
       "lsp": "aggregate/lsp/082f4d89486e4bfe918fd125431545a6b879155e.nq.gz",
-      "repolex": "aggregate/repolex/082f4d89486e4bfe918fd125431545a6b879155e.nq.gz"
+      "repolex": "aggregate/repolex/082f4d89486e4bfe918fd125431545a6b879155e.nq.gz",
+      "dep": "dep/082f4d89486e4bfe918fd125431545a6b879155e.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "envoy",
+          "ecosystem": "PYPI",
+          "version": "0.0.2",
+          "githubOrg": "kennethreitz",
+          "githubRepo": "envoy",
+          "githubCommit": "2390978f5b4131cb27dc69ac47f2da61faec08d3",
+          "githubTag": "v0.0.2",
+          "githubUrl": "https://github.com/kennethreitz/envoy",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "httpbin",
+          "ecosystem": "PYPI",
+          "version": "0.0.6",
+          "githubOrg": "psf",
+          "githubRepo": "httpbin",
+          "githubUrl": "https://github.com/psf/httpbin",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "gunicorn",
+          "ecosystem": "PYPI",
+          "version": "25.3.0",
+          "githubOrg": "benoitc",
+          "githubRepo": "gunicorn",
+          "githubCommit": "9bce72cfc3985aba7e0c47bf3c00fa681b2847e4",
+          "githubTag": "25.3.0",
+          "githubUrl": "https://github.com/benoitc/gunicorn",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pyflakes",
+          "ecosystem": "PYPI",
+          "version": "3.4.0",
+          "githubOrg": "PyCQA",
+          "githubRepo": "pyflakes",
+          "githubCommit": "59ec4593efd4c69ce00fdb13c40fcf5f3212ab10",
+          "githubTag": "3.4.0",
+          "githubUrl": "https://github.com/PyCQA/pyflakes",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "omnijson",
+          "ecosystem": "PYPI",
+          "version": "0.1.2",
+          "githubOrg": "kennethreitz",
+          "githubRepo": "omnijson",
+          "githubCommit": "2235005d532d8911f67fe430ebaf315c0f122e10",
+          "githubTag": "v0.1.2",
+          "githubUrl": "https://github.com/kennethreitz/omnijson",
+          "source": "build_file:requirements.txt"
+        }
+      ]
     },
     {
       "commit": "c18e6459a80d83c54f787549565eedb3a0210156",
