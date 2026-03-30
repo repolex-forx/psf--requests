@@ -48212,6 +48212,47 @@
         "blob/9b797fd4e4b553b2f290dd8559e14be1349d7d8d.nq.gz",
         "blob/fd02285b636ba6082b4f60a0c57fb0d2d7372a8e.nq.gz",
         "blob/b420c44d73cde0c2ab7e7aa0e5182b345436f718.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/18a6b601100db978f3a6e191816456e75bc47e0f.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/18a6b601100db978f3a6e191816456e75bc47e0f.nq.gz",
+      "repolex": "aggregate/repolex/18a6b601100db978f3a6e191816456e75bc47e0f.nq.gz",
+      "dep": "dep/18a6b601100db978f3a6e191816456e75bc47e0f.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "2.8.1",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "afdbb6b17aa6811f30bf2c99d4083e69bf582b3c",
+          "githubTag": "2.8.1",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pytest-cov",
+          "ecosystem": "PYPI",
+          "version": "2.1.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-cov",
+          "githubCommit": "f515bf79e93b947360014a6e2bf42877a2973924",
+          "githubTag": "v2.1.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-cov",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "wheel",
+          "ecosystem": "PYPI",
+          "version": "0.46.3",
+          "githubOrg": "pypa",
+          "githubRepo": "wheel",
+          "githubCommit": "8b6fa740a7101edacb42b0f8e83a1b659ff61033",
+          "githubTag": "0.46.3",
+          "githubUrl": "https://github.com/pypa/wheel",
+          "source": "build_file:requirements.txt"
+        }
       ]
     }
   ],
