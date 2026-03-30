@@ -23097,17 +23097,25 @@
       "dependencies": [
         {
           "packageName": "pytest",
-          "packageVersion": "9.0.2",
+          "ecosystem": "PYPI",
+          "version": "2.3.4",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest",
-          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+          "githubCommit": "b5955c59793b924a14e3ab185f38d690cef32fb3",
+          "githubTag": "2.3.4",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "invoke",
-          "packageVersion": "2.2.1",
+          "ecosystem": "PYPI",
+          "version": "0.2.0",
           "githubOrg": "pyinvoke",
           "githubRepo": "invoke",
-          "githubCommit": "26efe98365b8ffc52a925bc60d8cb7b16601a91d"
+          "githubCommit": "86494344593034e8c7b21bce7e73a2bf2e6e3268",
+          "githubTag": "0.2.0",
+          "githubUrl": "https://github.com/pyinvoke/invoke",
+          "source": "build_file:requirements.txt"
         }
       ]
     },
