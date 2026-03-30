@@ -21575,6 +21575,36 @@
         "blob/9b797fd4e4b553b2f290dd8559e14be1349d7d8d.nq.gz",
         "blob/fd02285b636ba6082b4f60a0c57fb0d2d7372a8e.nq.gz",
         "blob/b420c44d73cde0c2ab7e7aa0e5182b345436f718.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/3bb13f8fbb9d4ed1a20bd33495cdc087eb062ca0.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/3bb13f8fbb9d4ed1a20bd33495cdc087eb062ca0.nq.gz",
+      "repolex": "aggregate/repolex/3bb13f8fbb9d4ed1a20bd33495cdc087eb062ca0.nq.gz",
+      "dep": "dep/3bb13f8fbb9d4ed1a20bd33495cdc087eb062ca0.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "2.3.4",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "b5955c59793b924a14e3ab185f38d690cef32fb3",
+          "githubTag": "2.3.4",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "invoke",
+          "ecosystem": "PYPI",
+          "version": "0.2.0",
+          "githubOrg": "pyinvoke",
+          "githubRepo": "invoke",
+          "githubCommit": "86494344593034e8c7b21bce7e73a2bf2e6e3268",
+          "githubTag": "0.2.0",
+          "githubUrl": "https://github.com/pyinvoke/invoke",
+          "source": "build_file:requirements.txt"
+        }
       ]
     },
     {
