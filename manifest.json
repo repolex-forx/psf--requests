@@ -28991,17 +28991,36 @@
       "dependencies": [
         {
           "packageName": "pytest",
-          "packageVersion": "9.0.2",
+          "ecosystem": "PYPI",
+          "version": "2.3.4",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest",
-          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+          "githubCommit": "b5955c59793b924a14e3ab185f38d690cef32fb3",
+          "githubTag": "2.3.4",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "pytest-cov",
-          "packageVersion": "7.1.0",
+          "ecosystem": "PYPI",
+          "version": "1.6",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest-cov",
-          "githubCommit": "66c8a526b1246b5eb8fb1bc218878131bc628622"
+          "githubCommit": "c585e272d4ed01dc8bac05030648d3a78dd19fbf",
+          "githubTag": "v1.6",
+          "githubUrl": "https://github.com/pytest-dev/pytest-cov",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "wheel",
+          "ecosystem": "PYPI",
+          "version": "0.46.3",
+          "githubOrg": "pypa",
+          "githubRepo": "wheel",
+          "githubCommit": "8b6fa740a7101edacb42b0f8e83a1b659ff61033",
+          "githubTag": "0.46.3",
+          "githubUrl": "https://github.com/pypa/wheel",
+          "source": "build_file:requirements.txt"
         }
       ]
     },
