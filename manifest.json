@@ -33391,129 +33391,206 @@
       "dependencies": [
         {
           "packageName": "alabaster",
-          "packageVersion": "1.0.0",
+          "ecosystem": "PYPI",
+          "version": "0.7.7",
           "githubOrg": "sphinx-doc",
           "githubRepo": "alabaster",
-          "githubCommit": "fba58a43980385019ceb593f88ab8821e17840c0"
+          "githubCommit": "c3dace75c87a089a5ee585468660b7a4a01eebb0",
+          "githubTag": "0.7.7",
+          "githubUrl": "https://github.com/sphinx-doc/alabaster",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "babel",
+          "ecosystem": "PYPI",
+          "version": "2.2.0",
+          "githubOrg": "python-babel",
+          "githubRepo": "babel",
+          "githubCommit": "327bcdf9e83d3e07619912a980e3b1e5eba38a89",
+          "githubTag": "2.2.0",
+          "githubUrl": "https://github.com/python-babel/babel",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "coverage",
-          "packageVersion": "7.9.2",
-          "githubOrg": "nedbat",
+          "ecosystem": "PYPI",
+          "version": "4.0.3",
+          "githubOrg": "coveragepy",
           "githubRepo": "coveragepy",
-          "githubCommit": "6e774923cf042751feb78036fcd46909d263be06"
+          "githubUrl": "https://github.com/coveragepy/coveragepy",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "flask",
-          "packageVersion": "3.1.3",
+          "ecosystem": "PYPI",
+          "version": "0.10.1",
           "githubOrg": "pallets",
           "githubRepo": "flask",
-          "githubCommit": "22d924701a6ae2e4cd01e9a15bbaf3946094af65"
+          "githubCommit": "298334fffc8288b5a9a45ef4150e3c4292e45318",
+          "githubTag": "0.10.1",
+          "githubUrl": "https://github.com/pallets/flask",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "httpbin",
-          "packageVersion": "0.7.0",
-          "githubOrg": "requests",
+          "ecosystem": "PYPI",
+          "version": "0.4.1",
+          "githubOrg": "psf",
           "githubRepo": "httpbin",
-          "githubCommit": "2607b7e6c78bab21f9791331bdde15c583521c90"
+          "githubUrl": "https://github.com/psf/httpbin",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "itsdangerous",
-          "packageVersion": "2.2.0",
+          "ecosystem": "PYPI",
+          "version": "0.24",
           "githubOrg": "pallets",
           "githubRepo": "itsdangerous",
-          "githubCommit": "096c8d42545d3b68ea21a4f890fb2b2d8979c0bd"
+          "githubCommit": "4c3923561fd7d3aa53013b0b6b27bb3221bd473a",
+          "githubTag": "0.24",
+          "githubUrl": "https://github.com/pallets/itsdangerous",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "jinja2",
-          "packageVersion": "3.1.6",
+          "ecosystem": "PYPI",
+          "version": "2.8",
           "githubOrg": "pallets",
           "githubRepo": "jinja",
-          "githubCommit": "15206881c006c79667fe5154fe80c01c65410679"
+          "githubCommit": "966e1a409f02de57b75a0463fc953d54dad2a205",
+          "githubTag": "2.8",
+          "githubUrl": "https://github.com/pallets/jinja",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "markupsafe",
-          "packageVersion": "3.0.3",
+          "ecosystem": "PYPI",
+          "version": "0.23",
           "githubOrg": "pallets",
           "githubRepo": "markupsafe",
-          "githubCommit": "297fc8e356e6836a62087949245d09a28e9f1b13"
+          "githubCommit": "feb1d70c16df62f60dcb521d127fdad8819fc036",
+          "githubTag": "0.23",
+          "githubUrl": "https://github.com/pallets/markupsafe",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pygments",
+          "ecosystem": "PYPI",
+          "version": "2.1.1",
+          "githubOrg": "pygments",
+          "githubRepo": "pygments",
+          "githubCommit": "91301c1560a83e2dce84ef282cb7cd89fb8c4485",
+          "githubTag": "2.1.1",
+          "githubUrl": "https://github.com/pygments/pygments",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "pytest",
-          "packageVersion": "9.0.2",
+          "ecosystem": "PYPI",
+          "version": "2.8.7",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest",
-          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+          "githubCommit": "3315b3a12fdd9ef8e05d4efb6d6bea52aa750668",
+          "githubTag": "2.8.7",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "pytest-cov",
-          "packageVersion": "7.1.0",
+          "ecosystem": "PYPI",
+          "version": "2.2.1",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest-cov",
-          "githubCommit": "66c8a526b1246b5eb8fb1bc218878131bc628622"
+          "githubCommit": "4b3d73d6e5a8e7b2baf61283857d9206c60cccb6",
+          "githubTag": "v2.2.1",
+          "githubUrl": "https://github.com/pytest-dev/pytest-cov",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "pytest-httpbin",
-          "packageVersion": "2.1.0rc1",
+          "ecosystem": "PYPI",
+          "version": "0.2.0",
           "githubOrg": "kevin1024",
           "githubRepo": "pytest-httpbin",
-          "githubCommit": "f7b2b3e0eac202c8aa83372a4f5af5b05537ed86"
+          "githubCommit": "ae314b2a18eecac2a9d3b2034bfede9805ce7907",
+          "githubTag": "v0.2.0",
+          "githubUrl": "https://github.com/kevin1024/pytest-httpbin",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "pytest-mock",
-          "packageVersion": "3.9.0",
+          "ecosystem": "PYPI",
+          "version": "0.11.0",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest-mock",
-          "githubCommit": "64a34f64215d779dc0384acc3cdd5a164544a60a"
+          "githubCommit": "bea94a027d569a964fe6553592ec2262d14e275b",
+          "githubTag": "0.11.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-mock",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "six",
+          "ecosystem": "PYPI",
+          "version": "1.10.0",
+          "githubOrg": "benjaminp",
+          "githubRepo": "six",
+          "githubCommit": "c3ec058bf8c4d6329224eac53366c8e9ce511417",
+          "githubTag": "1.10.0",
+          "githubUrl": "https://github.com/benjaminp/six",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "snowballstemmer",
-          "packageVersion": "3.0.1",
+          "ecosystem": "PYPI",
+          "version": "1.2.1",
           "githubOrg": "snowballstem",
           "githubRepo": "snowball",
-          "githubCommit": "e4b3efb449ccb994d39230eb6e8440d267471f4a"
+          "githubUrl": "https://github.com/snowballstem/snowball",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "sphinx",
-          "packageVersion": "9.1.0rc2",
+          "ecosystem": "PYPI",
+          "version": "1.3.5",
           "githubOrg": "sphinx-doc",
           "githubRepo": "sphinx",
-          "githubCommit": "8ab960098a8e12b8893bd3ceafc394759118346b"
+          "githubCommit": "50951bdc9814109df848e12dd08b6a6bbdb01889",
+          "githubTag": "v1.3.5",
+          "githubUrl": "https://github.com/sphinx-doc/sphinx",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "sphinx-rtd-theme",
-          "packageVersion": "3.1.0rc2",
+          "ecosystem": "PYPI",
+          "version": "0.1.9",
           "githubOrg": "readthedocs",
           "githubRepo": "sphinx_rtd_theme",
-          "githubCommit": "fbe5e6004195a1e75654eface1884485c57eb68e"
+          "githubCommit": "84b5075f5b8a272b9a6d2689c551a947383bfda7",
+          "githubTag": "0.1.9",
+          "githubUrl": "https://github.com/readthedocs/sphinx_rtd_theme",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "werkzeug",
-          "packageVersion": "3.1.6",
+          "ecosystem": "PYPI",
+          "version": "0.11.4",
           "githubOrg": "pallets",
           "githubRepo": "werkzeug",
-          "githubCommit": "04da1b5221b7a7b57e82246e4b5741d37a6b2e56"
+          "githubCommit": "09c68ea9325095c9cb49659d8e003f75377b1b0c",
+          "githubTag": "0.11.4",
+          "githubUrl": "https://github.com/pallets/werkzeug",
+          "source": "build_file:requirements.txt"
         },
         {
-          "packageName": "chardet",
-          "packageVersion": "7.2.0",
-          "githubOrg": "chardet",
-          "githubRepo": "chardet",
-          "githubCommit": "884996a2eaff06d41e829c8893525f26a8780791"
-        },
-        {
-          "packageName": "urllib3",
-          "packageVersion": "2.6.3",
-          "githubOrg": "urllib3",
-          "githubRepo": "urllib3",
-          "githubCommit": "0248277dd7ac0239204889ca991353ad3e3a1ddc"
-        },
-        {
-          "packageName": "pyasn1",
-          "packageVersion": "0.6.3",
-          "githubOrg": "pyasn1",
-          "githubRepo": "pyasn1",
-          "githubCommit": "af65c3b92e9deeae50db4de390982dd970d87f98"
+          "packageName": "wheel",
+          "ecosystem": "PYPI",
+          "version": "0.29.0",
+          "githubOrg": "pypa",
+          "githubRepo": "wheel",
+          "githubCommit": "bc574d6ed73dabee02e4e00764172d6284a37cb4",
+          "githubTag": "0.29.0",
+          "githubUrl": "https://github.com/pypa/wheel",
+          "source": "build_file:requirements.txt"
         }
       ]
     },
