@@ -36814,17 +36814,25 @@
       "dependencies": [
         {
           "packageName": "pytest",
-          "packageVersion": "9.0.2",
+          "ecosystem": "PYPI",
+          "version": "9.0.2",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest",
-          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2",
+          "githubTag": "9.0.2",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "sphinx",
-          "packageVersion": "9.1.0rc2",
+          "ecosystem": "PYPI",
+          "version": "9.1.0",
           "githubOrg": "sphinx-doc",
           "githubRepo": "sphinx",
-          "githubCommit": "8ab960098a8e12b8893bd3ceafc394759118346b"
+          "githubCommit": "cc7c6f435ad37bb12264f8118c8461b230e6830c",
+          "githubTag": "v9.1.0",
+          "githubUrl": "https://github.com/sphinx-doc/sphinx",
+          "source": "build_file:requirements.txt"
         }
       ]
     },
