@@ -47519,115 +47519,149 @@
       "dependencies": [
         {
           "packageName": "pytest",
-          "packageVersion": "9.0.2",
+          "ecosystem": "PYPI",
+          "version": "2.8.0",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest",
-          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+          "githubCommit": "1aca998f3f75a533888db079bb05dd646957e149",
+          "githubTag": "2.8.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "codecov",
+          "ecosystem": "PYPI",
+          "version": "2.1.13",
+          "githubOrg": "codecov",
+          "githubRepo": "codecov-python",
+          "githubCommit": "a78512e4b00e67cfb3fccb530c9ca97a6c42eae5",
+          "githubTag": "v2.1.13",
+          "githubUrl": "https://github.com/codecov/codecov-python",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "pytest-httpbin",
-          "packageVersion": "2.1.0rc1",
+          "ecosystem": "PYPI",
+          "version": "0.0.7",
           "githubOrg": "kevin1024",
           "githubRepo": "pytest-httpbin",
-          "githubCommit": "f7b2b3e0eac202c8aa83372a4f5af5b05537ed86"
+          "githubUrl": "https://github.com/kevin1024/pytest-httpbin",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "pytest-mock",
-          "packageVersion": "3.9.0",
+          "ecosystem": "PYPI",
+          "version": "3.15.1",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest-mock",
-          "githubCommit": "64a34f64215d779dc0384acc3cdd5a164544a60a"
+          "githubCommit": "e1b5c62a38c5a05cae614aef3847f240ba50d269",
+          "githubTag": "v3.15.1",
+          "githubUrl": "https://github.com/pytest-dev/pytest-mock",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "pytest-cov",
-          "packageVersion": "7.1.0",
+          "ecosystem": "PYPI",
+          "version": "7.1.0",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest-cov",
-          "githubCommit": "66c8a526b1246b5eb8fb1bc218878131bc628622"
+          "githubCommit": "66c8a526b1246b5eb8fb1bc218878131bc628622",
+          "githubTag": "v7.1.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-cov",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "pytest-xdist",
-          "packageVersion": "3.8.0",
+          "ecosystem": "PYPI",
+          "version": "3.8.0",
           "githubOrg": "pytest-dev",
           "githubRepo": "pytest-xdist",
-          "githubCommit": "1e3e4dc16523c8a8f6c67d95a950166420718c99"
+          "githubCommit": "1e3e4dc16523c8a8f6c67d95a950166420718c99",
+          "githubTag": "v3.8.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-xdist",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "alabaster",
-          "packageVersion": "1.0.0",
+          "ecosystem": "PYPI",
+          "version": "1.0.0",
           "githubOrg": "sphinx-doc",
           "githubRepo": "alabaster",
-          "githubCommit": "fba58a43980385019ceb593f88ab8821e17840c0"
+          "githubCommit": "fba58a43980385019ceb593f88ab8821e17840c0",
+          "githubTag": "1.0.0",
+          "githubUrl": "https://github.com/sphinx-doc/alabaster",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "readme-renderer",
-          "packageVersion": "44.0.0",
+          "ecosystem": "PYPI",
+          "version": "44.0.0",
           "githubOrg": "pypa",
           "githubRepo": "readme_renderer",
-          "githubCommit": "HEAD"
+          "githubUrl": "https://github.com/pypa/readme_renderer",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "sphinx",
-          "packageVersion": "9.1.0rc2",
+          "ecosystem": "PYPI",
+          "version": "1.5.5",
           "githubOrg": "sphinx-doc",
           "githubRepo": "sphinx",
-          "githubCommit": "8ab960098a8e12b8893bd3ceafc394759118346b"
+          "githubCommit": "5dd51a7fa490d96425962fd6e942d6ae6ca74cd2",
+          "githubTag": "v1.5.5",
+          "githubUrl": "https://github.com/sphinx-doc/sphinx",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "pysocks",
-          "packageVersion": "1.7.1",
+          "ecosystem": "PYPI",
+          "version": "1.7.1",
           "githubOrg": "Anorov",
           "githubRepo": "PySocks",
-          "githubCommit": "HEAD"
+          "githubUrl": "https://github.com/Anorov/PySocks",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "18.5",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "d76ce5c06cb8c290e8f2cc803c85ae97543a3de2",
+          "githubTag": "18.5",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "flake8",
-          "packageVersion": "7.3.0",
+          "ecosystem": "PYPI",
+          "version": "7.3.0",
           "githubOrg": "pycqa",
           "githubRepo": "flake8",
-          "githubCommit": "c48217e1fc006c2dddd14df54e83b67da15de5cd"
+          "githubCommit": "c48217e1fc006c2dddd14df54e83b67da15de5cd",
+          "githubTag": "7.3.0",
+          "githubUrl": "https://github.com/pycqa/flake8",
+          "source": "build_file:requirements.txt"
         },
         {
           "packageName": "tox",
-          "packageVersion": "4.9.0",
+          "ecosystem": "PYPI",
+          "version": "4.52.0",
           "githubOrg": "tox-dev",
           "githubRepo": "tox",
-          "githubCommit": "3627f11bee3190abe5ce09ea114eea0d8a1f7e69"
+          "githubCommit": "d83d57779a5a2637cc4ee904d9cba1ec885561e5",
+          "githubTag": "4.52.0",
+          "githubUrl": "https://github.com/tox-dev/tox",
+          "source": "build_file:requirements.txt"
         },
         {
-          "packageName": "urllib3",
-          "packageVersion": "2.6.3",
-          "githubOrg": "urllib3",
-          "githubRepo": "urllib3",
-          "githubCommit": "0248277dd7ac0239204889ca991353ad3e3a1ddc"
-        },
-        {
-          "packageName": "chardet",
-          "packageVersion": "7.3.0",
-          "githubOrg": "chardet",
-          "githubRepo": "chardet",
-          "githubCommit": "9402975a7ae4bfc448f6f6dd54d7285798c8606b"
-        },
-        {
-          "packageName": "certifi",
-          "packageVersion": "2026.2.25",
-          "githubOrg": "certifi",
-          "githubRepo": "python-certifi",
-          "githubCommit": "HEAD"
-        },
-        {
-          "packageName": "idna",
-          "packageVersion": "3.9.0",
-          "githubOrg": "kjd",
-          "githubRepo": "idna",
-          "githubCommit": "HEAD"
-        },
-        {
-          "packageName": "cryptography",
-          "packageVersion": "46.0.5",
-          "githubOrg": "pyca",
-          "githubRepo": "cryptography",
-          "githubCommit": "06e120e682cb200e3f7050c02f0bcdac90c4c6ad"
+          "packageName": "detox",
+          "ecosystem": "PYPI",
+          "version": "0.19.0",
+          "githubOrg": "tox-dev",
+          "githubRepo": "detox",
+          "githubUrl": "https://github.com/tox-dev/detox",
+          "source": "build_file:requirements.txt"
         }
       ]
     },
