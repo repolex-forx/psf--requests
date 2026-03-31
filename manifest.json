@@ -54191,6 +54191,48 @@
         "blob/fd02285b636ba6082b4f60a0c57fb0d2d7372a8e.nq.gz",
         "blob/c952fe79416f9830d05899d662fd57a0ef51d98f.nq.gz",
         "blob/b420c44d73cde0c2ab7e7aa0e5182b345436f718.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/5a1e738ea9c399c3f59977f2f98b083986d6037a.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/5a1e738ea9c399c3f59977f2f98b083986d6037a.nq.gz",
+      "repolex": "aggregate/repolex/5a1e738ea9c399c3f59977f2f98b083986d6037a.nq.gz",
+      "dep": "dep/5a1e738ea9c399c3f59977f2f98b083986d6037a.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "idna",
+          "ecosystem": "PYPI",
+          "version": "3.11.0",
+          "githubOrg": "kjd",
+          "githubRepo": "idna",
+          "githubUrl": "https://github.com/kjd/idna",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/idna/__init__.py"
+        },
+        {
+          "packageName": "urllib3",
+          "ecosystem": "PYPI",
+          "version": "2.6.3",
+          "githubOrg": "urllib3",
+          "githubRepo": "urllib3",
+          "githubCommit": "0248277dd7ac0239204889ca991353ad3e3a1ddc",
+          "githubTag": "2.6.3",
+          "githubUrl": "https://github.com/urllib3/urllib3",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/urllib3/fields.py"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "82.0.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "5a13876673a41e3cd21d4d6e587f53d0fb4fd8e5",
+          "githubTag": "v82.0.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        }
       ]
     }
   ],
