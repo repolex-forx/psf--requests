@@ -73653,6 +73653,53 @@
       ],
       "ast": [
         "aggregate/ast/aeda65bbe57ac5edbcc2d80db85d010befb7d419/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/aeda65bbe57ac5edbcc2d80db85d010befb7d419.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "urllib3",
+          "ecosystem": "PYPI",
+          "version": "2.8.0",
+          "githubOrg": "urllib3",
+          "githubRepo": "urllib3",
+          "githubCommit": "b1d30ab61fe0db8f11092805e8c5ac43e091064a",
+          "githubTag": "2.8.0",
+          "githubUrl": "https://github.com/urllib3/urllib3",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/urllib3/util/timeout.py"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.0.0",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "72e919a8b10aaafc041205d4e3ae0e6a2e1e5f87",
+          "githubTag": "v84.0.0",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/setuptools/__init__.py"
+        },
+        {
+          "packageName": "idna",
+          "ecosystem": "PYPI",
+          "version": "3.20.0",
+          "githubOrg": "kjd",
+          "githubRepo": "idna",
+          "githubUrl": "https://github.com/kjd/idna",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/idna/__init__.py"
+        },
+        {
+          "packageName": "certifi",
+          "ecosystem": "PYPI",
+          "version": "2026.7.22",
+          "githubOrg": "certifi",
+          "githubRepo": "python-certifi",
+          "githubUrl": "https://github.com/certifi/python-certifi",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/certifi/__init__.py"
+        }
       ]
     }
   ],
