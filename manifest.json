@@ -75553,7 +75553,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/certifi/__init__.py"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/6cfbe1aedd56f8c2f9ff8b968efe65b22669795b/chunk-001.nq.gz",
+      "dep": "dep/6cfbe1aedd56f8c2f9ff8b968efe65b22669795b.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
