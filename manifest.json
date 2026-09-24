@@ -46222,7 +46222,7 @@
         "blob/8426eecbc7f98ebd415fd94b75c6cbcb69fbe937.nq.gz"
       ],
       "ast": [
-        "aggregate/ast/16c8241a8128920cfc4b64ea41418dbd6f5b36cb.nq.gz"
+        "aggregate/ast/16c8241a8128920cfc4b64ea41418dbd6f5b36cb/chunk-001.nq.gz"
       ],
       "lsp": "aggregate/lsp/16c8241a8128920cfc4b64ea41418dbd6f5b36cb.nq.gz",
       "repolex": "aggregate/repolex/16c8241a8128920cfc4b64ea41418dbd6f5b36cb.nq.gz",
