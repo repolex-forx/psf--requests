@@ -6,29 +6,27 @@ RDF knowledge graph data for [psf/requests](https://github.com/psf/requests), pa
 
 ## How to use this data
 
-The easiest way to get started is to install the [lexq](https://github.com/repolex-ai/lexq) query tool using [uv](https://docs.astral.sh/uv/getting-started/installation/).
-
-If you have uv installed, just copy/paste this into your terminal:
+The easiest way to get started is to install the [rlex](https://github.com/repolex-ai/rlex) query tool:
 
 ```bash
-uv tool install git+https://github.com/repolex-ai/lexq
+cargo install --git https://github.com/repolex-ai/rlex
 ```
 
-This installs lexq onto your system, in your user context. Verify the install:
+Verify the install:
 
 ```bash
-lexq --help
+rlex --help
 ```
 
-**lexq is designed to be used primarily by LLMs in a terminal.** Start up your favorite LLM and ask it to use the lexq tool. It's that easy!
+**rlex is designed to be used primarily by LLMs in a terminal.** Start up your favorite AI assistant and ask it to use rlex. It handles the SPARQL — you just ask questions in plain English.
 
 To load this repo's data:
 
 ```bash
-lexq download psf/requests
+rlex download psf/requests
 ```
 
-This will automatically download essential data files from the last parsed commit. Consult `lexq --moreinfo` for other options, including downloading multiple commits, blobs, etc.
+Consult `rlex --help` for other options, including SPARQL queries, HTTP server, and interactive visualization.
 
 ## Data structure
 
@@ -44,6 +42,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   │   ├── 147c8511ddbfa5e8f71bbf5c18ede0c4ceb3bba4
 │   │   │   └── chunk-001.nq.gz
 │   │   ├── 147c8511ddbfa5e8f71bbf5c18ede0c4ceb3bba4.nq.gz
+│   │   ├── 16c8241a8128920cfc4b64ea41418dbd6f5b36cb
+│   │   │   └── chunk-001.nq.gz
 │   │   ├── 16c8241a8128920cfc4b64ea41418dbd6f5b36cb.nq.gz
 │   │   ├── 18a6b601100db978f3a6e191816456e75bc47e0f.nq.gz
 │   │   ├── 1a7c91f6581c80122ed8cd1fdf4a8ca38c842453.nq.gz
@@ -178,6 +178,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │       ├── 147c8511ddbfa5e8f71bbf5c18ede0c4ceb3bba4
 │       │   └── chunk-001.nq.gz
 │       ├── 147c8511ddbfa5e8f71bbf5c18ede0c4ceb3bba4.nq.gz
+│       ├── 16c8241a8128920cfc4b64ea41418dbd6f5b36cb
+│       │   └── chunk-001.nq.gz
 │       ├── 16c8241a8128920cfc4b64ea41418dbd6f5b36cb.nq.gz
 │       ├── 18a6b601100db978f3a6e191816456e75bc47e0f.nq.gz
 │       ├── 1a7c91f6581c80122ed8cd1fdf4a8ca38c842453.nq.gz
@@ -255,11 +257,9 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
     ├── 03c9dcf3eb8337dd69e68574e58c33012ebb2408.nq.gz
     ├── 0417d6f668c9ae16897ef4d1c80fb5664110a452.nq.gz
     ├── 04385be18ac53b27d54a037b1c54fec7b5e61d8a.nq.gz
-    ├── 04387bc1acde8a25eb4691154aac3a265f13961a.nq.gz
-    ├── 04512072251c429e63ed110cdbafaf4b3cca3412.nq.gz
-    └── 045e533845068402162bf722c4e01be3a7329bcf.nq.gz
+    └── 04387bc1acde8a25eb4691154aac3a265f13961a.nq.gz
 
-23 directories, 200 files
+25 directories, 200 files
 ```
 
 | Directory | What it contains |
@@ -273,10 +273,11 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 | `branch/` | Branch metadata. |
 | `tag/` | Tag metadata. |
 | `filetree/` | File tree snapshots per commit (which files existed and their blob SHAs). |
+| `audit/` | Code architecture and graph audit reports per commit. |
 
 ## Source repository
 
 [psf/requests](https://github.com/psf/requests)
 
 ---
-*Parsed on 2026-09-24 by [repolex](https://repolex.ai)*
+*Parsed on 2026-09-25 by [repolex](https://repolex.ai)*
