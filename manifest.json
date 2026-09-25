@@ -46225,7 +46225,7 @@
         "aggregate/ast/16c8241a8128920cfc4b64ea41418dbd6f5b36cb/chunk-001.nq.gz"
       ],
       "lsp": "aggregate/lsp/16c8241a8128920cfc4b64ea41418dbd6f5b36cb.nq.gz",
-      "repolex": "aggregate/repolex/16c8241a8128920cfc4b64ea41418dbd6f5b36cb.nq.gz",
+      "repolex": "aggregate/repolex/16c8241a8128920cfc4b64ea41418dbd6f5b36cb/chunk-001.nq.gz",
       "dep": "dep/16c8241a8128920cfc4b64ea41418dbd6f5b36cb.nq.gz",
       "dependencies": [
         {
