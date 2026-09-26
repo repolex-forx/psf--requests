@@ -38489,7 +38489,7 @@
         "aggregate/ast/b2289cd2d5d21bd31cf4a818a4e0ff6951b2317a/chunk-001.nq.gz"
       ],
       "lsp": "aggregate/lsp/b2289cd2d5d21bd31cf4a818a4e0ff6951b2317a.nq.gz",
-      "repolex": "aggregate/repolex/b2289cd2d5d21bd31cf4a818a4e0ff6951b2317a.nq.gz",
+      "repolex": "aggregate/repolex/b2289cd2d5d21bd31cf4a818a4e0ff6951b2317a/chunk-001.nq.gz",
       "dep": "dep/b2289cd2d5d21bd31cf4a818a4e0ff6951b2317a.nq.gz",
       "dependencies": [
         {
