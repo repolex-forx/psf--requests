@@ -3,6 +3,11 @@
   "repo": "requests",
   "versions": [
     {
+      "commit": "b2289cd2d5d21bd31cf4a818a4e0ff6951b2317a",
+      "tag": "v2.13.0",
+      "parsed_at": "2026-09-26T19:07:35.947000+00:00"
+    },
+    {
       "commit": "16c8241a8128920cfc4b64ea41418dbd6f5b36cb",
       "tag": "v2.16.5",
       "parsed_at": "2026-09-25T07:11:52.540750+00:00"
