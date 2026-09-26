@@ -38493,46 +38493,48 @@
       "dep": "dep/b2289cd2d5d21bd31cf4a818a4e0ff6951b2317a.nq.gz",
       "dependencies": [
         {
-          "packageName": "pytest",
-          "packageVersion": "9.0.2",
-          "githubOrg": "pytest-dev",
-          "githubRepo": "pytest",
-          "githubCommit": "3d10b5148e03eb82b3ee29181dbdc73cf82699e2"
+          "packageName": "idna",
+          "ecosystem": "PYPI",
+          "version": "3.20.0",
+          "githubOrg": "kjd",
+          "githubRepo": "idna",
+          "githubUrl": "https://github.com/kjd/idna",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/idna/__init__.py"
         },
         {
-          "packageName": "chardet",
-          "packageVersion": "7.2.0",
-          "githubOrg": "chardet",
-          "githubRepo": "chardet",
-          "githubCommit": "884996a2eaff06d41e829c8893525f26a8780791"
-        },
-        {
-          "packageName": "cryptography",
-          "packageVersion": "46.0.5",
-          "githubOrg": "pyca",
-          "githubRepo": "cryptography",
-          "githubCommit": "06e120e682cb200e3f7050c02f0bcdac90c4c6ad"
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.0.0",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "72e919a8b10aaafc041205d4e3ae0e6a2e1e5f87",
+          "githubTag": "v84.0.0",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/setuptools/__init__.py"
         },
         {
           "packageName": "certifi",
-          "packageVersion": "2026.2.25",
+          "ecosystem": "PYPI",
+          "version": "2026.7.22",
           "githubOrg": "certifi",
           "githubRepo": "python-certifi",
-          "githubCommit": "HEAD"
+          "githubUrl": "https://github.com/certifi/python-certifi",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/certifi/__init__.py"
         },
         {
           "packageName": "urllib3",
-          "packageVersion": "2.6.3",
+          "ecosystem": "PYPI",
+          "version": "2.8.0",
           "githubOrg": "urllib3",
           "githubRepo": "urllib3",
-          "githubCommit": "0248277dd7ac0239204889ca991353ad3e3a1ddc"
-        },
-        {
-          "packageName": "idna",
-          "packageVersion": "3.9.0",
-          "githubOrg": "kjd",
-          "githubRepo": "idna",
-          "githubCommit": "HEAD"
+          "githubCommit": "b1d30ab61fe0db8f11092805e8c5ac43e091064a",
+          "githubTag": "2.8.0",
+          "githubUrl": "https://github.com/urllib3/urllib3",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/urllib3/__init__.py"
         }
       ]
     },
